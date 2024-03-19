@@ -1,0 +1,557 @@
+<!-- Hey there! I know my code is a bit cheeky so I hope you can send me an email with some tips how to write it better,
+    the delivery is supposed to be correct, I hope... but I believe it can be written better! Thanks for your work-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Periodic Table of Elements</title>
+        <link rel="stylesheet" href="myStyles.css" />
+    </head>
+    <header>
+        <h1>Periodic Table of Elements</h1>
+    </header>
+    <body>
+        <picture>
+            <source media="(min-width: 700px)" srcset="medium-image.jpg" />
+            <img src="small-image.jpg" alt="Responsive Picture" style="width: auto" />
+        </picture>
+        <div id="periodicTable">
+            <div class="group1">
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">H</div>
+                    Hydrogen
+                </div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">He</div>
+                    Helium
+                </div>
+            </div>
+            <div class="group2">
+                <div class="element alkaliMetal">
+                    <div class="elementTitle">Li</div>
+                    Lithium
+                </div>
+                <div class="element AlkaliEarthMetal">
+                    <div class="elementTitle">Be</div>
+                    Beryllium
+                </div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="element metalloid">
+                    <div class="elementTitle">B</div>
+                    Baron
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">C</div>
+                    Carbon
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">N</div>
+                    Nitrogen
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">O</div>
+                    Oxygen
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">F</div>
+                    Fluorine
+                </div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">Ne</div>
+                    Neon
+                </div>
+            </div>
+            <div class="group3">
+                <div class="element alkaliMetal">
+                    <div class="elementTitle">Na</div>
+                    Sodium
+                </div>
+                <div class="element AlkaliEarthMetal">
+                    <div class="elementTitle">Mg</div>
+                    Magnesium
+                </div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Al</div>
+                    Aluminium
+                </div>
+                <div class="element metalloid">
+                    <div class="elementTitle">Si</div>
+                    Silicon
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">P</div>
+                    Phosphorous
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">S</div>
+                    Sulfur
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">Cl</div>
+                    Chlorine
+                </div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">Ar</div>
+                    Argon
+                </div>
+            </div>
+            <div class="group4">
+                <div class="element alkaliMetal">
+                    <div class="elementTitle">K</div>
+                    Potassium
+                </div>
+                <div class="element AlkaliEarthMetal">
+                    <div class="elementTitle">Ca</div>
+                    Calcium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Sc</div>
+                    Scandium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ti</div>
+                    Titanium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">V</div>
+                    Vanadium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Cr</div>
+                    Chronium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Mn</div>
+                    Manganese
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Fe</div>
+                    Iron
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Co</div>
+                    Cobalt
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ni</div>
+                    Nickel
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Cu</div>
+                    Copper
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Zn</div>
+                    Zinc
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Ga</div>
+                    Gallium
+                </div>
+                <div class="element metalloid">
+                    <div class="elementTitle">Ge</div>
+                    Germanium
+                </div>
+                <div class="element metalloid">
+                    <div class="elementTitle">As</div>
+                    Arsenic
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">Se</div>
+                    Selenium
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">Br</div>
+                    Bromine
+                </div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">Kr</div>
+                    Krypton
+                </div>
+            </div>
+            <div class="group5">
+                <div class="element alkaliMetal">
+                    <div class="elementTitle">Rb</div>
+                    Rubidium
+                </div>
+                <div class="element AlkaliEarthMetal">
+                    <div class="elementTitle">Sr</div>
+                    Strontium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Y</div>
+                    Yttrium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Zr</div>
+                    Zirconium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Nb</div>
+                    Niobium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Mo</div>
+                    Molybdenum
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Tc</div>
+                    Technetium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ru</div>
+                    Ruthenium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Rh</div>
+                    Rhodium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Pd</div>
+                    Palladium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ag</div>
+                    Silver
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Cd</div>
+                    Cadmium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">In</div>
+                    Indium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Sn</div>
+                    Tin
+                </div>
+                <div class="element metalloid">
+                    <div class="elementTitle">Sb</div>
+                    Antimony
+                </div>
+                <div class="element metalloid">
+                    <div class="elementTitle">Te</div>
+                    Tellurium
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">I</div>
+                    Iodine
+                </div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">Xe</div>
+                    Xenon
+                </div>
+            </div>
+            <div class="group6">
+                <div class="element alkaliMetal">
+                    <div class="elementTitle">Cs</div>
+                    Cesium
+                </div>
+                <div class="element AlkaliEarthMetal">
+                    <div class="elementTitle">Ba</div>
+                    Barium
+                </div>
+                <div class="empty"></div>
+                <div class="element">
+                    <div class="elementTitle">Hf</div>
+                    Hafnium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ta</div>
+                    Tantalum
+                </div>
+                <div class="element">
+                    <div class="elementTitle">W</div>
+                    Tungsten
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Re</div>
+                    Rhenium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Os</div>
+                    Osmium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ir</div>
+                    Iridium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Pt</div>
+                    Platinum
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Au</div>
+                    Gold
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Hg</div>
+                    Mercury
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Tl</div>
+                    Thallium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Pb</div>
+                    Lead
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Bi</div>
+                    Bismuth
+                </div>
+                <div class="element metalloid">
+                    <div class="elementTitle">Po</div>
+                    Polonium
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">At</div>
+                    Astatine
+                </div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">Rn</div>
+                    Radon
+                </div>
+            </div>
+            <div class="group7">
+                <div class="element alkaliMetal">
+                    <div class="elementTitle">Fr</div>
+                    Francium
+                </div>
+                <div class="element AlkaliEarthMetal">
+                    <div class="elementTitle">Ra</div>
+                    Radium
+                </div>
+                <div class="empty"></div>
+                <div class="element">
+                    <div class="elementTitle">Rf</div>
+                    Rutherfordium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Db</div>
+                    Dubnium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Sg</div>
+                    Seaborgium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Bh</div>
+                    Bohrium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Hs</div>
+                    Hassium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Mt</div>
+                    Meitnerium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Ds</div>
+                    Darmstadtium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Rg</div>
+                    Roentgenium
+                </div>
+                <div class="element">
+                    <div class="elementTitle">Cn</div>
+                    Copernicium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Nh</div>
+                    Nihonium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Fl</div>
+                    Flevium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Mc</div>
+                    Moscovium
+                </div>
+                <div class="element postTransitionMetal">
+                    <div class="elementTitle">Lv</div>
+                    Livermorium
+                </div>
+                <div class="element nonmetalAndHalogen">
+                    <div class="elementTitle">Ts</div>
+                    Tennessine
+                </div>
+                <div class="element nobleGas">
+                    <div class="elementTitle">Og</div>
+                    Oganesson
+                </div>
+            </div>
+            <div class="group8">
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">La</div>
+                    Lanthanum
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Ce</div>
+                    Cerium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Pr</div>
+                    Praseodymium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Nd</div>
+                    Neodymium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Pm</div>
+                    Promethium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Sm</div>
+                    Samarium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Eu</div>
+                    Europium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Gd</div>
+                    Gadolinium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Tb</div>
+                    Terbium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Dy</div>
+                    Dysprosium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Ho</div>
+                    Holmium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Er</div>
+                    Erbium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Tm</div>
+                    Thulium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Yb</div>
+                    Ytterbium
+                </div>
+                <div class="element lanthanide">
+                    <div class="elementTitle">Lu</div>
+                    Lutetium
+                </div>
+            </div>
+            <div class="group9">
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="element actinide">
+                    <div class="elementTitle">Ac</div>
+                    Actinium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Th</div>
+                    Thorium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Pa</div>
+                    Protactinium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">U</div>
+                    Uranium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Np</div>
+                    Neptunium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Pu</div>
+                    Plutonium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Am</div>
+                    Americium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Cm</div>
+                    Curium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Bk</div>
+                    Berkelium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Cf</div>
+                    Californium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Es</div>
+                    Einsteinium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Fm</div>
+                    Fermium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Md</div>
+                    Mendelevium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">No</div>
+                    Nobelium
+                </div>
+                <div class="element actinide">
+                    <div class="elementTitle">Lr</div>
+                    Lawrencium
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
