@@ -1,3 +1,5 @@
+/* Styling the header and main body of the page */
+
 header {
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,6 +12,7 @@ body {
     text-align: center;
 }
 
+/* Responsive design when changing the size of the window */ 
 @media (max-width:1600px) {
     #periodicTable {
         display: none;
@@ -22,21 +25,15 @@ body {
     }
 }
 
-.elementTitle {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 5px;
-    padding-top: 20px;
-}
 
+/* Creating the grid, we need 9 groups of 18 columns */ 
 .group1 {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     grid-gap: 2px;
     background-color: white;
 }
+
 .group2 {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
@@ -85,6 +82,8 @@ body {
     grid-gap: 2px;
     background-color: white;
 }
+
+/* Creating the actual single square */ 
 .element {
     height: 70px;
     width: 70px;
@@ -97,6 +96,8 @@ body {
     margin: 4px;
 }
 
+
+/* Creating the white empty square to make the periodic original layout */ 
 .empty {
     height: 70px;
     width: 70px;
@@ -109,7 +110,17 @@ body {
     margin: 4px;
 }
 
+/* Text inside each single square */ 
+.elementTitle {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
 
+/* Giving different colors to elements */ 
 .nonmetalAndHalogen {
     background-color: beige;
 }
